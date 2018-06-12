@@ -1,0 +1,429 @@
+/* GLOBAL */
+@font-face{
+    font-family: "AlexBrush";
+    src: url('fonts/AlexBrush-Regular.ttf');
+}
+@font-face{
+    font-family: "OpenSans";
+    src: url('fonts/OpenSans-Regular.ttf');
+}
+body{
+    background-color: rgb(106,168,79);
+}
+
+/* Extra small devices (phones, less than 768px) */
+
+h1, h2, h3,h4{
+    font-family: 'AlexBrush';
+    font-weight: bold;
+    font-size: 1.8em;
+}
+p{
+    font-family: 'OpenSans';
+}
+
+img{
+    width: 100%;
+}
+
+/* HEADER */
+header{
+    background-color: rgb(40,79,19);
+    margin-top: -8px;
+}
+header #logo{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+header #logojdt{
+    width: 100%;
+}
+header nav
+{
+    display: flex;
+    justify-content: space-around;
+}
+header nav p{
+    text-transform: uppercase;
+    font-family: 'OpenSans';
+    list-style-type: none;
+}
+header nav a{
+    color: rgb(242,242,242);
+    text-decoration: none;
+}
+
+/* SECTION 1 SOCIÉTÉ */
+#section1{
+    margin-top: -24px;
+    background-color: rgb(238,238,238);
+}
+#section1 h2{
+    text-align: center;
+    padding-top: 30px;
+}
+#section1 p{
+    padding: 0 10px;
+}
+#section1 #s1imgleft{
+    margin-bottom: 15px;
+}
+
+/* SECTION 2 NOTRE SAVOIR-FAIRE */
+#section2 h2{
+    background-color: rgb(204,204,204);
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+#sectionblocfonds{
+    background-color: rgb(52,52,52);
+    padding: 20px;
+}
+.sectionbloc{
+    background-color: rgb(106,168,79);
+    padding: 20px;
+}
+.sectionbloc h3{
+    text-align: center;
+    font-size: 1.6em;
+}
+.sectionbloc p{
+    color: rgb(238,238,238);
+    text-align: center;
+}
+#sectionblocfonds hr{
+    background-color: rgb(52,52,52);
+    border: solid 1px rgb(52,52,52);
+}
+
+/* SECTION 3 INFOS COMPLÉMENTAIRES */
+#section3 #principal
+{
+    background-color: rgb(238,238,238);
+    padding: 10px;
+    text-align: center;
+}
+#section3 #secondaire{
+    background-color: rgb(204,204,204);
+    padding: 10px;
+}
+
+
+
+/* SECTION 4 PLUS DE RÉALISATIONS */
+#section4 #subsection4titre{
+    background-color: rgb(52,52,52);
+    padding: 10px;
+    color: rgb(238,238,238);
+    text-align: center;
+}
+#section4 #profils, #section4 #profiltestimoni, #section4 #photos {
+    background-color: rgb(238,238,238);
+    padding: 5px 20px;
+}
+#section4 .profil{
+    background-color: rgb(204,204,204);
+    padding: 5px 20px;
+}
+#section4 h2, h3{
+    text-align: center;
+}
+#section4 .centreicons{
+    display: flex;
+    justify-content: space-around;
+}
+#section4 .centreicons img{
+    width: 25%;
+    height: 25%;
+}
+#section4 hr{
+    background-color: rgb(238,238,238);
+    border: solid 1px rgb(238,238,238);
+}
+#section4 blockquote{
+    font-style: italic;
+    font-family: 'OpenSans';
+}
+
+/* SECTION 5 CONTACT */
+
+#section5 #principale h2
+{
+    text-align: center;
+}
+#section5 #reseauxsociaux{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'OpenSans';
+}
+
+#section5 #reseauxsociaux img{
+    width: 80%;
+    position: relative;
+    left: 10px;
+}
+
+#section5 #contact{
+    background-color: rgb(238,238,238);
+}
+#section5 #contact h2{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgb(106,168,79);
+}
+
+#section5 #contact h3{
+    color: rgb(106,168,79);
+    text-align: center;
+}
+
+#section5 #coordonnees p{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+#section5 #formulaire{
+    font-family: 'OpenSans';
+}
+#section5 #formulaire label{
+    text-align: left;
+    display: block;
+    justify-content: center;
+    margin-bottom: -15px;
+    margin-top: 15px;
+}
+#section5 #formulaire input{
+    width: 90%;
+    margin: 0 5%;
+    border: solid 1px black;
+}
+#section5 #formulaire textarea{
+    min-width: 90%;
+    max-width: 90%;
+    margin: 0 5%;
+    min-height: 100px;
+    max-height: 200px;
+    border: solid 1px black;
+}
+#section5 #formulaire input[id="submit"]{
+    width: 50%;
+    background-color: rgb(106,168,79);
+    border: solid 3px rgb(106,168,79);
+    color: white;
+    margin: 10px 25%;
+}
+#section5 #divers{
+    background-color: rgb(52,52,52);
+    padding: 10px;
+}
+#section5 h4{
+    color: rgb(106,168,79);
+    font-size: 1.2em;
+    text-align: center;
+}
+#section5 p{
+    color: rgb(238,238,238);
+    text-align: center;
+    font-size: 0.8em;
+}
+
+/* FOOTER */
+footer{
+    text-align: center;
+    color: rgb(238,238,238);
+}
+.return_button {
+    border-radius:3px;
+    padding:10px;
+    font-size:15px;
+    text-align:center;
+    color:#fff;
+    background:rgba(0, 0, 0, 0.25);
+    z-index:99999;
+    transition:all ease-in 0.2s;
+    position: fixed;
+    cursor: pointer;
+    bottom: 1em;
+    right: 20px;
+    display: none;
+}
+.return_button:before{
+    content: "\25b2";
+}
+.return_button:hover{
+    background:rgba(0, 0, 0, 1);
+    transition:all ease-in 0.2s;
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #wrap{
+        margin: 0 3%;
+        padding: 0 3%;
+    }
+    /* HEADER */
+    header{
+        display: flex;
+    }
+    header #logo{
+        width: 150px;
+        flex: 1;
+        padding: 0 5%;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        width: 35%;
+        margin: auto;
+        padding-left: 35%;
+        padding-right: 5%;
+        flex: 2;
+    }
+    nav p{
+        padding: 0 5px;
+    }
+
+    /* SECTION 1 */
+    #section1{
+        padding: 0 5%;
+    }
+    #section1 h2, #section2 h2, #section3 h2, #section4 h2, #subsection4titre p, #section5 #titre h2{
+        text-align: left;
+    }
+    #section1 #blocimages1{
+        margin-right: 1%;
+    }
+    #section1 #blocimages2{
+        margin-left: 1%;
+    }
+    #section1 #images{
+        display: flex;
+        justify-content: space-around;
+    }
+    #section1 #blocimages1, #section1 #blocimages2{
+
+    }
+    #section1 #images img{
+        height: 300px;
+        width: 100%;
+    }
+
+    /* SECTION 2 */
+    #section2 h2, #section2 #sectionblocfonds{
+        padding: 0 5%;
+    }
+    #sectionblocfonds{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sectionbloc{
+        margin: 2% 0;
+    }
+    #img1{
+        height: 180px;
+    }
+    #section2 hr{
+        width: 20%;
+    }
+
+    /* SECTION 3 */
+    #section3 #principal, #section3 #secondaire{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    /* SECTION 4 */
+    #section4 #subsection4titre, #section4 #profils, #section4 #profiltestimoni, #section4 #photos{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #section4 #profils{
+        display: flex;
+        padding-top: 1%;
+    }
+    #section4 .profil{
+        flex: 1;
+    }
+    #section4 #profils hr{
+        width: 1%;
+    }
+    #blocktestimoni, #blocphotos{
+        display: flex;
+    }
+    #profil{
+        flex: 1;
+    }
+    #testimoni{
+        flex: 2;
+    }
+    #photos{
+        flex: 1;
+    }
+    #blocphotos hr{
+        width: 5%;
+    }
+
+    #principale{
+        display: flex;
+        padding: 0 5%;
+    }
+    #reseauxsociaux{
+        margin-left: 45%;
+    }
+    #reseauxsociaux div{
+        display: flex;
+    }
+    #section5 #reseauxsociaux img{
+        width: 30%;
+        height: 30%;
+        position: relative;
+        top: 10px;
+    }
+    #section5 #reseauxsociaux p{
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+
+    #section5 #contact{
+        padding: 0 10%;
+    }
+    #section5 #blockcontact{
+        display: flex;
+    }
+    #section5 #bloctop{
+        display: flex;
+        margin-left: 4%;
+    }
+    #coordonnees{
+        flex: 1;
+    }
+    #section5 #formulaire{
+        flex: 2;
+    }
+    #section5 #formulaire label{
+        text-align: left;
+        margin-left: 30px;
+    }
+    #section5 #formulaire textarea{
+        max-width: 65%;
+        min-width: 65%;
+    }
+    #section5 #formulaire input[id="submit"]{
+        width: 46%;
+    }
+    #section5 #divers{
+        padding: 0 5%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
